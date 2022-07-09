@@ -9,9 +9,24 @@
 
 
 #include <QWidget>
+#include <QVector>
+#include <QLabel>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QVBoxLayout>
 
 class Store : public QWidget {
     Q_OBJECT
+public:
+    Store();
+private:
+    QVector<QLabel> gameTitles;
+
+    QVBoxLayout form;
+    QLineEdit title;
+    QLineEdit price;
+
+    QPushButton createGameButton;
 };
 
 
