@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(desktopclient main.cpp)
+add_executable(desktopclient sources/main.cpp sources/window/mainwindow.cpp sources/window/mainwindow.h)
 target_link_libraries(desktopclient
         Qt::Core
         Qt::Gui
