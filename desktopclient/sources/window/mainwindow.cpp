@@ -5,9 +5,6 @@
 #include "mainwindow.h"
 
 MainWindow::MainWindow() {
-    addGameButton.setText(tr("Add a game"));
-    addGameButton.setParent(&library);
-
     centralWidget.addTab(&library, tr("Library"));
     centralWidget.addTab(&store, tr("Store"));
 
