@@ -33,9 +33,6 @@ private:
     /* Pages */
     Library library;
     Store store;
-
-    /* Controls */
-    QPushButton addGameButton;
 };
 
 
