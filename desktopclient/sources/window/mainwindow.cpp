@@ -4,4 +4,6 @@
 
 #include "mainwindow.h"
 
-MainWindow::MainWindow() = default;
+MainWindow::MainWindow() {
+    setCentralWidget(&centralWidget);
+}
