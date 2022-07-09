@@ -24,8 +24,12 @@ private:
     QMenuBar menuBar;
     QToolBar toolBar;
     QDockWidget dockWidget;
-    QWidget centralWidget;
+    QTabWidget centralWidget;
     QStatusBar statusBar;
+
+    /* Pages */
+    QWidget library;
+    QWidget store;
 
     /* Controls */
     QPushButton addGameButton;

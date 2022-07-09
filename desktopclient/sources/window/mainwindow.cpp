@@ -6,7 +6,10 @@
 
 MainWindow::MainWindow() {
     addGameButton.setText(tr("Add a game"));
-    addGameButton.setParent(&centralWidget);
+    addGameButton.setParent(&library);
+
+    centralWidget.addTab(&library, tr("Library"));
+    centralWidget.addTab(&store, tr("Store"));
 
     setCentralWidget(&centralWidget);
 }
