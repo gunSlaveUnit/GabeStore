@@ -8,10 +8,23 @@
 #define DESKTOPCLIENT_MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QMenuBar>
+#include <QToolBar>
+#include <QDockWidget>
+#include <QStatusBar>
 
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
+public:
+    MainWindow();
+private:
+    /* Window structure */
+    QMenuBar menuBar;
+    QToolBar toolBar;
+    QDockWidget dockWidget;
+    QWidget centralWidget;
+    QStatusBar statusBar;
 };
 
 

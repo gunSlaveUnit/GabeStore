@@ -3,3 +3,5 @@
 //
 
 #include "mainwindow.h"
+
+MainWindow::MainWindow() = default;
