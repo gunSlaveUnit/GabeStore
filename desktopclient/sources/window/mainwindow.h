@@ -14,6 +14,9 @@
 #include <QStatusBar>
 #include <QPushButton>
 
+#include "../pages/store.h"
+#include "../pages/library.h"
+
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -28,8 +31,8 @@ private:
     QStatusBar statusBar;
 
     /* Pages */
-    QWidget library;
-    QWidget store;
+    Library library;
+    Store store;
 
     /* Controls */
     QPushButton addGameButton;
