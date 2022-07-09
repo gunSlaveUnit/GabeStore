@@ -5,5 +5,8 @@
 #include "mainwindow.h"
 
 MainWindow::MainWindow() {
+    addGameButton.setText(tr("Add a game"));
+    addGameButton.setParent(&centralWidget);
+
     setCentralWidget(&centralWidget);
 }

@@ -12,6 +12,7 @@
 #include <QToolBar>
 #include <QDockWidget>
 #include <QStatusBar>
+#include <QPushButton>
 
 
 class MainWindow : public QMainWindow {
@@ -25,6 +26,9 @@ private:
     QDockWidget dockWidget;
     QWidget centralWidget;
     QStatusBar statusBar;
+
+    /* Controls */
+    QPushButton addGameButton;
 };
 
 
